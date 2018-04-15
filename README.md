@@ -15,7 +15,7 @@ mvn clean
 ```
 ## 安装
 ```
-mvn install
+mvn install -Dmaven.test.skip=true
 ```
 ## 启动
 切换到带有web的maven子模块根目录。
